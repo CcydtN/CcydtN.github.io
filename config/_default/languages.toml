@@ -1,0 +1,12 @@
+[en]
+    languageName = "English"
+    title = "CcydtN's Blog"
+    weight = 1
+[en.Params.Sidebar]
+    subtitle = "Blog about programming, mainly focus on C++, Rust."
+[zh-hk]
+    languageName = "中文"
+    title = "CctdtN的筆記"
+    weight = 2
+[zh-hk.Params.Sidebar]
+    subtitle = "編程筆記，主要關於C++，Rust"

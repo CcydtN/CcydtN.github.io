@@ -1,0 +1,26 @@
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+identifier = "home"
+[main.params]
+icon = "home"
+newTab = false
+
+[[main]]
+name = "Search"
+url = "/page/search"
+weight = 2
+identifier = "search"
+[main.params]
+icon = "search"
+newTab = false
+
+[[main]]
+name = "Archives"
+url = "/page/archives"
+weight = 3
+identifier = "archives"
+[main.params]
+icon = "archives"
+newTab = false

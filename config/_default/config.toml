@@ -1,0 +1,9 @@
+baseURL = 'https://ccydtn.github.io'
+theme = 'hugo-theme-stack'
+
+DefaultContentLanguage = 'en'
+enableGitInfo = true
+hasCJKLanguage = true
+
+[frontmatter]
+  lastmod = ['lastmod', ':fileModTime', ':default']

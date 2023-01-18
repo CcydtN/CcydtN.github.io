@@ -1,0 +1,39 @@
+mainSections = ["posts"]
+
+[Sidebar]
+compact = false 
+[Sidebar.avatar]
+  enabled = false
+
+[Article]
+  math = true
+  toc = true
+  readingTime = false
+[Article.license]
+  enabled = true
+
+[DateFormat]
+lastUpdated = "Jan 02, 2006 MST"
+
+[[Widgets.page]]
+type = "search"
+
+[[Widgets.page]]
+type = "toc"
+
+[[Widgets.page]]
+type = "archives"
+[Widgets.page.params]
+limit = 10
+
+[[Widgets.page]]
+type = "tag-cloud"
+[Widgets.page.params]
+limit = 20
+
+[[Widgets.archives]]
+type = "search"
+
+[[Widgets.homepage]]
+type = "search"
+
