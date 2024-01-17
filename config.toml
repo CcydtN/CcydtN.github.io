@@ -9,6 +9,11 @@ build_search_index = false
 
 theme = "DeepThought"
 
+taxonomies = [
+  { name = "categories", feed = true, paginate_by = 10 },
+  { name = "tags", feed = true, paginate_by = 10 },
+]
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
@@ -25,13 +30,13 @@ mermaid.enabled = true
 galleria.enabled = true
 
 navbar_items = [
- { code = "en", nav_items = [
-  { url = "$BASE_URL/", name = "Home" },
-  { url = "$BASE_URL/posts", name = "Posts" },
-  # { url = "$BASE_URL/docs", name = "Docs" },
-  { url = "$BASE_URL/tags", name = "Tags" },
-  { url = "$BASE_URL/categories", name = "Categories" },
- ]},
+  { code = "en", nav_items = [
+    { url = "$BASE_URL/", name = "Home" },
+    { url = "$BASE_URL/posts", name = "Posts" },
+    # { url = "$BASE_URL/docs", name = "Docs" },
+    { url = "$BASE_URL/tags", name = "Tags" },
+    { url = "$BASE_URL/categories", name = "Categories" },
+  ] },
 ]
 
 # Add links to favicon, you can use https://realfavicongenerator.net/ to generate favicon for your site

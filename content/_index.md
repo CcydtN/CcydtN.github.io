@@ -1,6 +1,6 @@
 +++
 title = "CcydtN"
-description = "Embedded Software developer | Join CTF occasionally | Passion Learner (Recently Rust, CTF)"
+description = "C++ Software developer | Learning Rust | CTF"
 +++
 
 <!-- Hi I am CcydtN, or you can call -->
