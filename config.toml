@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "http://ccydtn.giithub.io/"
+base_url = "https://ccydtn.github.io"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
